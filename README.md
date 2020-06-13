@@ -1,1 +1,0 @@
-# gohjiayi.github.io

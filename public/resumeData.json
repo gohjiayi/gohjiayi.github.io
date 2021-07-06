@@ -1,0 +1,91 @@
+{
+  "main": {
+    "name":"Goh Jia Yi, Jesa",
+    "image":"profile.jpg",
+    "bio":["Hi there! I am Jia Yi and I go by Jesa as well. Currently a final-year Business Analytics undergraduate at National University of Singapore (NUS), expected to graduate in July 2022. I love all things data and my passion lies within Machine Learning and Analytics.", 
+        "When I was young, I started dabbling around in HTML and CSS which sparked my interest in the field of technology. With strong interests in technopreneurship, I hope to create something impactful with my skills for the greater good."],
+    "contactmessage":"I would love to hear from you, let's chat!",
+    "resumedownload":"https://drive.google.com/file/d/1o2t18f8-u7OMNYkI4a_5xExIXP9jcpOa/view?usp=sharing",
+    "social":{
+        "linkedin":"https://www.linkedin.com/in/gohjiayi/",
+        "github":"https://github.com/gohjiayi",
+        "email":"gooohjiayi@gmail.com",
+        "website":"https://gohjiayi.github.io"
+    }
+  },
+  "resume":{
+    "education":[
+      {
+        "school":"National University of Singapore",
+        "degree":"Bachelor of Science (BSc.) in Business Analytics",
+        "graduated":"July 2022",
+        "description":""
+      },
+      {
+        "school":"Singapore Polytechnic",
+        "degree":"Diploma in Financial Informatics",
+        "graduated":"May 2018",
+        "description":""
+      }
+    ],
+    "work":[
+      {
+        "company":"SAP Asia",
+        "location":"Singapore",
+        "title":"Machine Learning Engineer Intern",
+        "years":"Jan 2021 - Jun 2021",
+        "description":["Boosted document processing efficiency by automating classification and quality checks with 96% precision.", 
+            "Enhanced information extraction application to reach 92% accuracy through regression testing and analysis.", 
+            "Researched, designed, and implemented scalable applications."
+        ]
+      },
+      {
+        "company":"GovTech",
+        "location":"Singapore",
+        "title":"Machine Learning Engineer Intern",
+        "years":"May 2020 - Aug 2020",
+        "description": ["Streamlined Individual Physical Proficiency Test (IPPT) processes by building an exercise detection and rep counting application."]
+      },
+      {
+        "company":"Visa",
+        "location":"Singapore",
+        "title":"Innovations & Strategic Partnership Intern",
+        "years":"Oct 2017 - Mar 2018",
+        "description":["Provided timely strategic partners reporting to internal senior stakeholders.", 
+            "Performed market scan and analysis for Visa Ventures AP.", 
+            "Forged strong relationships with Visa’s stakeholders through planning and execution of strategic events, such as the Singapore Fintech Festival 2017."
+        ]
+      }
+    ],
+    "skills":[
+      {
+        "name":"Python",
+        "level":"60%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"05.jpg",
+        "url":"http://www.smirkspace.com"
+      },
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"06.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      }
+    ]
+  }
+}

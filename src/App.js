@@ -8,6 +8,11 @@ import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faCubes, faUsers, faMicrophone, faCommentDots, faCode, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+
+library.add(fab, faLinkedin, faGithub, faCubes, faUsers, faMicrophone, faCommentDots, faCode, faEnvelope)
 
 class App extends Component {
   constructor(props) {

@@ -13,8 +13,8 @@ class About extends Component {
         <p>{sentence}</p>
       );
     });
+    const resumeDownload = "files/" + this.props.data.resumedownload;
 
-    const resumeDownload = this.props.data.resumedownload;
     return (
       <section id="about">
         <Fade duration={1000}>
@@ -29,15 +29,11 @@ class About extends Component {
             <div className="nine columns main-col">
               <h2>About</h2>
               <p>{bio}</p>
-              <div className="row">
-                <div className="columns download">
-                  <p>
-                    <a href={resumeDownload} className="button" target="_blank" rel="noreferrer">
-                    <FontAwesomeIcon icon={faDownload} />&nbsp; Download Resume
-                    </a>
-                  </p>
-                </div>
-              </div>
+              <p className="download">
+                <a href={resumeDownload} className="button" target="_blank" rel="noreferrer">
+                  <FontAwesomeIcon icon={faDownload} />&nbsp; Download Resume
+                </a>
+              </p>
             </div>
           </div>
         </Fade>

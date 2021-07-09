@@ -48,7 +48,7 @@ class Header extends Component {
             </li>
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Works
+                Portfolio
               </a>
             </li>
             <li>
@@ -62,14 +62,14 @@ class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <Fade bottom>
-              <h1 className="responsive-headline">{name}</h1>
+              <h1>{name}</h1>
             </Fade>
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <li key="linkedin"><a href={linkedin}><FontAwesomeIcon icon={faLinkedin}/></a></li>
-                <li key="github"><a href={github}><FontAwesomeIcon icon={faGithub}/></a></li>
-                <li key="email"><a href={email}><FontAwesomeIcon icon={faEnvelope}/></a></li>
+                <li key="linkedin"><a href={linkedin} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin}/></a></li>
+                <li key="github"><a href={github} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub}/></a></li>
+                <li key="email"><a href={email} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faEnvelope}/></a></li>
               </ul>
             </Fade>
           </div>

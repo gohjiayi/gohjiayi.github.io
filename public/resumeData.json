@@ -2,10 +2,10 @@
   "main": {
     "name":"Goh Jia Yi, Jesa",
     "image":"profile.jpg",
-    "bio":["Hi there! I am Jia Yi and I go by Jesa as well. Currently a final-year Business Analytics undergraduate at National University of Singapore (NUS), expected to graduate in July 2022. I love all things data and my passion lies within Machine Learning and Analytics.", 
+    "bio":["Hi there! I am Jia Yi and I go by Jesa as well. Currently a final-year Business Analytics undergraduate at National University of Singapore (NUS), expected to graduate in July 2022. I love all things data and my passion lies within Machine Learning and Analytics.",
         "When I was young, I started dabbling around in HTML and CSS which sparked my interest in the field of technology. With strong interests in technopreneurship, I hope to create something impactful with my skills for the greater good."],
     "contactmessage":"I would love to hear from you, let's chat!",
-    "resumedownload":"https://drive.google.com/file/d/1o2t18f8-u7OMNYkI4a_5xExIXP9jcpOa/view?usp=sharing",
+    "resumedownload":"Goh Jia Yi Resume Jul21.pdf",
     "social":{
         "linkedin":"https://www.linkedin.com/in/gohjiayi/",
         "github":"https://github.com/gohjiayi",
@@ -18,7 +18,7 @@
       {
         "school":"National University of Singapore",
         "degree":"Bachelor of Science (BSc.) in Business Analytics",
-        "graduated":"July 2022",
+        "graduated":"Expected July 2022",
         "description":""
       },
       {
@@ -30,45 +30,57 @@
     ],
     "work":[
       {
-        "company":"SAP Asia",
+        "company":"SAP",
         "location":"Singapore",
         "title":"Machine Learning Engineer Intern",
         "years":"Jan 2021 - Jun 2021",
-        "description":["Boosted document processing efficiency by automating classification and quality checks with 96% precision.", 
-            "Enhanced information extraction application to reach 92% accuracy through regression testing and analysis.", 
+        "description":["Boosted document processing efficiency by automating classification and quality checks with 96% precision.",
+            "Enhanced information extraction application to reach 92% accuracy through regression testing and analysis.",
             "Researched, designed, and implemented scalable applications."
-        ]
+        ],
+        "attachments":[]
       },
       {
         "company":"GovTech",
         "location":"Singapore",
         "title":"Machine Learning Engineer Intern",
         "years":"May 2020 - Aug 2020",
-        "description": ["Streamlined Individual Physical Proficiency Test (IPPT) processes by building an exercise detection and rep counting application."]
+        "description": ["Streamlined Individual Physical Proficiency Test (IPPT) processes by building an exercise detection and rep counting application."],
+        "attachments":[]
       },
       {
         "company":"Visa",
         "location":"Singapore",
         "title":"Innovations & Strategic Partnership Intern",
         "years":"Oct 2017 - Mar 2018",
-        "description":["Provided timely strategic partners reporting to internal senior stakeholders.", 
-            "Performed market scan and analysis for Visa Ventures AP.", 
+        "description":["Provided timely strategic partners reporting to internal senior stakeholders.",
+            "Performed market scan and analysis for Visa Ventures AP.",
             "Forged strong relationships with Visa’s stakeholders through planning and execution of strategic events, such as the Singapore Fintech Festival 2017."
-        ]
+        ],
+        "attachments":[]
       }
     ],
-    "skills":[
+    "technicalskills":["Python", "Java", "JavaScript", "React", "HTML5", "CSS3"],
+    "softskills":[
       {
-        "name":"Python",
-        "level":"60%"
+        "skill":"Problem Solving",
+        "icon":"cubes"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "skill":"Leadership",
+        "icon":"users"
       },
       {
-        "name":"CSS",
-        "level":"90%"
+        "skill":"Public Speaking",
+        "icon":"microphone"
+      },
+      {
+        "skill":"Communication",
+        "icon":"comment-dots"
+      },
+      {
+        "skill":"Agile & SCRUM",
+        "icon":"code"
       }
     ]
   },

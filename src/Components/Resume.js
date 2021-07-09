@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Slide from "react-reveal";
+import DevIcon from "devicon-react-svg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Resume extends Component {
 
@@ -8,11 +10,10 @@ class Resume extends Component {
 
     const education = this.props.data.education.map(function (education) {
       return (
-        <div key={education.school}>
+        <div className="education-entry" key={education.school}>
           <h4>{education.school}</h4>
           <p className="info">
-            {education.degree} <span>&bull;</span>
-            <em className="date">{education.graduated}</em>
+            {education.degree}<span>&bull;</span>{education.graduated}
           </p>
           <p>{education.description}</p>
         </div>
@@ -21,31 +22,50 @@ class Resume extends Component {
 
     const work = this.props.data.work.map(function (work) {
       return (
-        <div key={work.company}>
+        <div className="work-entry" key={work.company}>
           <h4>{work.title}</h4>
           <p className="info">
-            {work.company} <span>&bull;</span> {work.location}
+            {work.company}<span>&bull;</span>{work.location}<span>&bull;</span>{work.years}
           </p>
-          <p className="info-bullet"><em className="date">{work.years}</em></p>
           {work.description.map(function(sentence) {
             return (
-              <p className="info-bullet"><span>&bull;</span>&nbsp; {sentence}</p>
+              <p className="info-bullet"><span>&bull;</span> {sentence}</p>
             )
           })}
         </div>
       );
     });
 
-    const skills = this.props.data.skills.map((skills) => {
+    const technicalskills = this.props.data.technicalskills.map(function (skill) {
+      var skillLower = skill.toLowerCase();
       return (
-        <li>
-          <em>{skills.name}</em>
-        </li>
+          <li key={skill}>{skill}<br/><DevIcon className="skill-icon" icon={skillLower} style={{fill:"#595959", width:"50px"}}/></li>
+      );
+    });
+
+    const softskills = this.props.data.softskills.map(function (skill) {
+      var skillName = skill.skill;
+      var skillIcon = ["fas", skill.icon];
+      return (
+        <li key={skillName}>{skillName}<br/><FontAwesomeIcon icon={skillIcon} color={"#595959"} size="2x" /></li>
       );
     });
 
     return (
       <section id="resume">
+        <Slide left duration={1300}>
+          <div className="row work">
+            <div className="three columns header-col">
+              <h1>
+                <span>Experience</span>
+              </h1>
+            </div>
+            <div className="nine columns main-col">
+              {work}
+            </div>
+          </div>
+        </Slide>
+
         <Slide left duration={1300}>
           <div className="row education">
             <div className="three columns header-col">
@@ -63,18 +83,6 @@ class Resume extends Component {
         </Slide>
 
         <Slide left duration={1300}>
-          <div className="row work">
-            <div className="three columns header-col">
-              <h1>
-                <span>Work</span>
-              </h1>
-            </div>
-
-            <div className="nine columns main-col">{work}</div>
-          </div>
-        </Slide>
-
-        <Slide left duration={1300}>
           <div className="row skill">
             <div className="three columns header-col">
               <h1>
@@ -83,8 +91,15 @@ class Resume extends Component {
             </div>
 
             <div className="nine columns main-col">
-              <div className="bars">
-                <ul className="skills">{skills}</ul>
+              <div className="skills">
+                <h4>Technical Skills</h4>
+                <ul className="technical-skills">
+                  {technicalskills}
+                </ul>
+                <h4>Soft Skills</h4>
+                <ul className="soft-skills">
+                  {softskills}
+                </ul>
               </div>
             </div>
           </div>

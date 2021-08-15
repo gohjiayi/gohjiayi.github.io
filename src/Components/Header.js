@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub, faMedium } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 class Header extends Component {
@@ -11,6 +11,7 @@ class Header extends Component {
     const name = this.props.data.name;
     const linkedin = this.props.data.social.linkedin;
     const github = this.props.data.social.github;
+    const medium = this.props.data.social.medium;
     const email = "mailto:" + this.props.data.social.email;
 
     return (
@@ -46,16 +47,11 @@ class Header extends Component {
                 Resume
               </a>
             </li>
-            <li>
+            {/* <li>
               <a className="smoothscroll" href="#portfolio">
                 Portfolio
               </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#contact">
-                Contact
-              </a>
-            </li>
+            </li> */}
           </ul>
         </nav>
 
@@ -69,6 +65,7 @@ class Header extends Component {
               <ul className="social">
                 <li key="linkedin"><a href={linkedin} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin}/></a></li>
                 <li key="github"><a href={github} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub}/></a></li>
+                <li key="medium"><a href={medium} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faMedium}/></a></li>
                 <li key="email"><a href={email} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faEnvelope}/></a></li>
               </ul>
             </Fade>

@@ -395,6 +395,7 @@ ul#nav li a:hover:after {
 #resume .soft-skills, .technical-skills {
    display: flex;
    justify-content: center;
+   overflow-x: auto;
    margin-bottom: 45px;
 }
 

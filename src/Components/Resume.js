@@ -1,10 +1,8 @@
 import React, { Component } from "react";
 import Slide from "react-reveal";
-import DevIcon from "devicon-react-svg";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class Resume extends Component {
-
   render() {
     if (!this.props.data) return null;
 
@@ -13,7 +11,9 @@ class Resume extends Component {
         <div className="education-entry" key={education.school}>
           <h4>{education.school}</h4>
           <p className="info">
-            {education.degree}<span>&bull;</span>{education.graduated}
+            {education.degree}
+            <span>&bull;</span>
+            {education.graduated}
           </p>
           <p>{education.description}</p>
         </div>
@@ -25,21 +25,30 @@ class Resume extends Component {
         <div className="work-entry" key={work.company}>
           <h4>{work.title}</h4>
           <p className="info">
-            {work.company}<span>&bull;</span>{work.location}<span>&bull;</span>{work.years}
+            {work.company}
+            <span>&bull;</span>
+            {work.location}
+            <span>&bull;</span>
+            {work.years}
           </p>
-          {work.description.map(function(sentence) {
+          {work.description.map(function (sentence) {
             return (
-              <p className="info-bullet"><span>&bull;</span> {sentence}</p>
-            )
+              <p className="info-bullet">
+                <span>&bull;</span> {sentence}
+              </p>
+            );
           })}
         </div>
       );
     });
 
     const technicalskills = this.props.data.technicalskills.map(function (skill) {
-      var skillLower = skill.toLowerCase();
+      var skillName = skill.skill;
+      var skillIcon = ["fas", skill.icon];
       return (
-          <li key={skill}>{skill}<br/><DevIcon className="skill-icon" icon={skillLower} style={{fill:"#595959", width:"50px"}}/></li>
+        <li key={skillName}>
+          <FontAwesomeIcon icon={skillIcon} size={"lg"} /> {skillName}
+        </li>
       );
     });
 
@@ -47,7 +56,9 @@ class Resume extends Component {
       var skillName = skill.skill;
       var skillIcon = ["fas", skill.icon];
       return (
-        <li key={skillName}>{skillName}<br/><FontAwesomeIcon icon={skillIcon} color={"#595959"} size="2x" /></li>
+        <li key={skillName}>
+          <FontAwesomeIcon icon={skillIcon} size={"lg"} /> {skillName}
+        </li>
       );
     });
 
@@ -60,9 +71,7 @@ class Resume extends Component {
                 <span>Experience</span>
               </h1>
             </div>
-            <div className="nine columns main-col">
-              {work}
-            </div>
+            <div className="nine columns main-col">{work}</div>
           </div>
         </Slide>
 
@@ -92,14 +101,14 @@ class Resume extends Component {
 
             <div className="nine columns main-col">
               <div className="skills">
-                <h4>Technical Skills</h4>
-                <ul className="technical-skills">
-                  {technicalskills}
-                </ul>
-                <h4>Soft Skills</h4>
-                <ul className="soft-skills">
-                  {softskills}
-                </ul>
+                <div style={{ float: "left", width: "100%" }}>
+                  <h4 >Technical Skills</h4>
+                  <ul className="technical-skills">{technicalskills}</ul>
+                </div>
+                <div style={{ float: "right", width: "100%" }}>
+                  <h4>Soft Skills</h4>
+                  <ul className="soft-skills">{softskills}</ul>
+                </div>
               </div>
             </div>
           </div>

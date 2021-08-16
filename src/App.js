@@ -7,18 +7,45 @@ import Footer from "./Components/Footer";
 import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Gallery from "./Components/Gallery";
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faCubes, faUsers, faMicrophone, faCommentDots, faCode, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab, faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import {
+  faCubes,
+  faUsers,
+  faMicrophone,
+  faCommentDots,
+  faCode,
+  faEnvelope,
+  faRobot,
+  faChartArea,
+  faLaptop,
+  faDatabase,
+  faFastForward,
+} from "@fortawesome/free-solid-svg-icons";
 
-library.add(fab, faLinkedin, faGithub, faCubes, faUsers, faMicrophone, faCommentDots, faCode, faEnvelope)
+library.add(
+  fab,
+  faLinkedin,
+  faGithub,
+  faCubes,
+  faUsers,
+  faMicrophone,
+  faCommentDots,
+  faCode,
+  faEnvelope,
+  faRobot,
+  faChartArea,
+  faLaptop,
+  faDatabase,
+  faFastForward
+);
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
       foo: "bar",
-      resumeData: {}
+      resumeData: {},
     };
 
     ReactGA.initialize("UA-110570651-1");
@@ -30,13 +57,13 @@ class App extends Component {
       url: "./resumeData.json",
       dataType: "json",
       cache: false,
-      success: function(data) {
+      success: function (data) {
         this.setState({ resumeData: data });
       }.bind(this),
-      error: function(xhr, status, err) {
+      error: function (xhr, status, err) {
         console.log(err);
         alert(err);
-      }
+      },
     });
   }
 

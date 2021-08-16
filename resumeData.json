@@ -38,16 +38,14 @@
         "description":["Boosted document processing efficiency by automating classification and quality checks with 96% precision.",
             "Enhanced information extraction application to reach 92% accuracy through regression testing and analysis.",
             "Researched, designed, and implemented scalable applications."
-        ],
-        "attachments":[]
+        ]
       },
       {
         "company":"GovTech",
         "location":"Singapore",
         "title":"Machine Learning Engineer Intern",
         "years":"May 2020 - Aug 2020",
-        "description": ["Streamlined Individual Physical Proficiency Test (IPPT) processes by building an exercise detection and rep counting application."],
-        "attachments":[]
+        "description": ["Streamlined Individual Physical Proficiency Test (IPPT) processes by building an exercise detection and rep counting application."]
       },
       {
         "company":"Visa",
@@ -57,8 +55,7 @@
         "description":["Provided timely strategic partners reporting to internal senior stakeholders.",
             "Performed market scan and analysis for Visa Ventures AP.",
             "Forged strong relationships with Visa’s stakeholders through planning and execution of strategic events, such as the Singapore Fintech Festival 2017."
-        ],
-        "attachments":[]
+        ]
       }
     ],
     "technicalskills":["Python", "Java", "JavaScript", "React", "HTML5", "CSS3"],
@@ -85,19 +82,23 @@
       }
     ]
   },
-  "portfolio":{
+  "gallery":{
     "projects": [
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"Shopee Ultra Hackathon 2021",
+        "image":"shopee.jpg"
       },
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Sheares Hall Basketball",
+        "image":"basketball.jpg"
+      },
+      {
+        "title":"SoC Rag & Flag",
+        "image":"rag.jpg"
+      },
+      {
+        "title":"SoC Freshmen Social Camp",
+        "image":"fsc.jpg"
       }
     ]
   }

@@ -252,9 +252,9 @@
    #call-to-action p { font-size: 15px; }
 
 
-   /* Portfolio Section
+   /* Gallery Section
    /* ----------------------------------------------------------------- */
-   #portfolio-wrapper .columns { margin-bottom: 40px; }
+   #gallery-wrapper .columns { margin-bottom: 40px; }
    .popup-modal {	max-width: 85%; }
 
 

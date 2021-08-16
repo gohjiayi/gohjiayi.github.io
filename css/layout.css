@@ -368,39 +368,31 @@ ul#nav li a:hover:after {
 }
 
 #resume .skills li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    margin-left: 20px;
-    height: 80px;
-    width: 80px;
-    font-size: 16px;
-    justify-content: flex;
-    align-content: center;
-    text-align: center;
-    color: #0f0f0f;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+   display: inline-block;
+   background-color: #ffe1eb;
+   border-radius: 20px;
+   margin: 0.4em;
+   padding: 0.4em 0.7em;
+   font-size: medium;
+   justify-content: flex;
+   align-content: left;
+   text-align: left;
+   color: #595959;
+   -webkit-transition: all 0.3s ease-in-out;
+   -moz-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   -ms-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
 }
 
 #resume .skills li:hover {
    color: #c02559;
+   background-color: #fff;
+   transform: scale(1.05);
 }
-
-#resume .skills li:first-child { margin-left: 0; }
 
 #resume .soft-skills, .technical-skills {
-   display: flex;
-   justify-content: center;
-   overflow-x: auto;
    margin-bottom: 45px;
-}
-
-#resume .soft-skills li {
-   width: 120px;
 }
 
 

@@ -2,8 +2,8 @@
   "main": {
     "name":"Goh Jia Yi, Jesa",
     "image":"profile.jpg",
-    "bio":["Hi there! I am Jia Yi and I go by Jesa as well. Currently a final-year Business Analytics undergraduate at National University of Singapore (NUS), expected to graduate in July 2022. I love all things data and my passion lies within Machine Learning and Analytics.",
-        "When I was young, I started dabbling around in HTML and CSS which sparked my interest in the field of technology. With strong interests in technopreneurship, I hope to create something impactful with my skills for the greater good."],
+    "bio":["Hi there! I am Jia Yi and I go by Jesa too. Currently a final-year Business Analytics undergraduate at National University of Singapore (NUS), expected to graduate in May 2022.",
+        "I love all things data and my passion lies within Machine Learning and Data Analytics. I am always up for challenges and enjoy problem-solving. With interests in technopreneurship, I aspire to consistently create innovative products for the greater good."],
     "contactmessage":"I would love to hear from you, let's chat!",
     "resumedownload":"Goh Jia Yi Resume Jul21.pdf",
     "social":{
@@ -58,7 +58,28 @@
         ]
       }
     ],
-    "technicalskills":["Python", "Java", "JavaScript", "React", "HTML5", "CSS3"],
+    "technicalskills":[
+      {
+        "skill":"Machine Learning",
+        "icon":"robot"
+      },
+      {
+        "skill":"Data Analysis",
+        "icon":"chart-area"
+      },
+      {
+        "skill":"Application Development",
+        "icon":"laptop"
+      },
+      {
+        "skill":"Database Management",
+        "icon":"database"
+      },
+      {
+        "skill":"Spark & Hadoop",
+        "icon":"fast-forward"
+      }
+    ],
     "softskills":[
       {
         "skill":"Problem Solving",

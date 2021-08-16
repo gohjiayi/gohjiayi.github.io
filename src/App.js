@@ -6,7 +6,7 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
 import Resume from "./Components/Resume";
-import Portfolio from "./Components/Portfolio";
+import Gallery from "./Components/Gallery";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faCubes, faUsers, faMicrophone, faCommentDots, faCode, faEnvelope } from '@fortawesome/free-solid-svg-icons'
@@ -50,7 +50,7 @@ class App extends Component {
         <Header data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
         <Resume data={this.state.resumeData.resume} />
-        {/* <Portfolio data={this.state.resumeData.portfolio} /> */}
+        <Gallery data={this.state.resumeData.gallery} />
         <Footer data={this.state.resumeData.main} />
       </div>
     );

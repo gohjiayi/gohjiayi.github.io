@@ -22,6 +22,7 @@ import {
   faDatabase,
   faFastForward,
 } from "@fortawesome/free-solid-svg-icons";
+import dotenv from "dotenv";
 
 library.add(
   fab,
@@ -39,6 +40,7 @@ library.add(
   faDatabase,
   faFastForward
 );
+dotenv.config();
 
 class App extends Component {
   constructor(props) {
@@ -48,7 +50,8 @@ class App extends Component {
       resumeData: {},
     };
 
-    ReactGA.initialize("UA-110570651-1");
+    const REACT_APP_GA_TRACKING_ID = process.env.REACT_APP_GA_TRACKING_ID;
+    ReactGA.initialize(REACT_APP_GA_TRACKING_ID);
     ReactGA.pageview(window.location.pathname);
   }
 

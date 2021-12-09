@@ -3,9 +3,9 @@
     "name":"Goh Jia Yi, Jesa",
     "image":"profile.jpg",
     "bio":["Hi there! I am Jia Yi and I go by Jesa too. Currently a final-year Business Analytics undergraduate at National University of Singapore (NUS), expected to graduate in May 2022.",
-        "I love all things data and my passion lies within Machine Learning and Data Analytics. I am always up for challenges and enjoy problem-solving. With interests in technopreneurship, I aspire to consistently create innovative products for the greater good."],
+        "I love all things data and my passion lies within Deep Learning and Data Analytics. I am always up for challenges and enjoy problem-solving. With interests in technopreneurship, I aspire to consistently create innovative products for the greater good."],
     "contactmessage":"I would love to hear from you, let's chat!",
-    "resumedownload":"Goh Jia Yi Resume Jul21.pdf",
+    "resumedownload":"Goh Jia Yi Resume Dec21.pdf",
     "social":{
         "linkedin":"https://www.linkedin.com/in/gohjiayi/",
         "github":"https://github.com/gohjiayi",
@@ -19,7 +19,7 @@
       {
         "school":"National University of Singapore",
         "degree":"Bachelor of Science (BSc.) in Business Analytics",
-        "graduated":"Expected July 2022",
+        "graduated":"Expected May 2022",
         "description":""
       },
       {
@@ -60,7 +60,7 @@
     ],
     "technicalskills":[
       {
-        "skill":"Machine Learning",
+        "skill":"Deep Learning",
         "icon":"robot"
       },
       {

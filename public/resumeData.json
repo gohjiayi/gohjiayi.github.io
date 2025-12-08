@@ -1,125 +1,189 @@
 {
   "main": {
-    "name":"Goh Jia Yi, Jesa",
-    "image":"profile.jpg",
-    "bio":["Hi there! I am Jia Yi and I go by Jesa too. Currently a final-year Business Analytics undergraduate at National University of Singapore (NUS), expected to graduate in May 2022.",
-        "I love all things data and my passion lies within Deep Learning and Data Analytics. I am always up for challenges and enjoy problem-solving. With interests in technopreneurship, I aspire to consistently create innovative products for the greater good."],
-    "contactmessage":"I would love to hear from you, let's chat!",
-    "resumedownload":"Goh Jia Yi Resume Dec21.pdf",
-    "social":{
-        "linkedin":"https://www.linkedin.com/in/gohjiayi/",
-        "github":"https://github.com/gohjiayi",
-        "email":"gooohjiayi@gmail.com",
-        "medium":"https://medium.com/@gohjiayi",
-        "website":"https://gohjiayi.github.io"
+    "name": "Goh Jia Yi, Jesa",
+    "headline": "AI Engineer specialising in LLM safety, computer vision, and applied ML systems.",
+    "image": "profile.jpg",
+    "bio": [
+      "Hi, I’m Jia Yi — I also go by Jesa!",
+      "I’m currently exploring the realm of Responsible AI to make AI products safer and more trustworthy for public use. The unprecedented pace of AI advancements makes waking up each day exciting, but it also reinforces the need to build responsibly, which is what keeps me up at night (in a good way).",
+      "Transforming ideas into tangible working solutions brings me joy."
+    ],
+    "resumedownload": "Goh Jia Yi Resume Dec2025.pdf",
+    "social": {
+      "email": "gooohjiayi@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/gohjiayi/",
+      "github": "https://github.com/gohjiayi",
+      "x": "https://x.com/gooohjy",
+      "medium": "https://medium.com/@gohjiayi",
+      "website": "https://gohjiayi.github.io",
+      "googlescholar": "https://scholar.google.com/citations?user=F7jD4AUAAAAJ&hl=en"
     }
   },
-  "resume":{
-    "education":[
+  "resume": {
+    "education": [
       {
-        "school":"National University of Singapore",
-        "degree":"Bachelor of Science (BSc.) in Business Analytics",
-        "graduated":"Expected May 2022",
-        "description":""
-      },
-      {
-        "school":"Singapore Polytechnic",
-        "degree":"Diploma in Financial Informatics",
-        "graduated":"May 2018",
-        "description":""
-      }
-    ],
-    "work":[
-      {
-        "company":"SAP",
-        "location":"Singapore",
-        "title":"Machine Learning Engineer Intern",
-        "years":"Jan 2021 - Jun 2021",
-        "description":["Boosted document processing efficiency by automating classification and quality checks with 96% precision.",
-            "Enhanced information extraction application to reach 92% accuracy through regression testing and analysis.",
-            "Researched, designed, and implemented scalable applications."
-        ]
-      },
-      {
-        "company":"GovTech",
-        "location":"Singapore",
-        "title":"Machine Learning Engineer Intern",
-        "years":"May 2020 - Aug 2020",
-        "description": ["Streamlined Individual Physical Proficiency Test (IPPT) processes by building an exercise detection and rep counting application."]
-      },
-      {
-        "company":"Visa",
-        "location":"Singapore",
-        "title":"Innovations & Strategic Partnership Intern",
-        "years":"Oct 2017 - Mar 2018",
-        "description":["Provided timely strategic partners reporting to internal senior stakeholders.",
-            "Performed market scan and analysis for Visa Ventures AP.",
-            "Forged strong relationships with Visa’s stakeholders through planning and execution of strategic events, such as the Singapore Fintech Festival 2017."
+        "school": "National University of Singapore",
+        "degree": "Bachelor of Science (BSc.) in Business Analytics",
+        "graduated": "May 2022",
+        "description": "Graduated with First-Class Honours",
+        "activities": [
+          "ML Tech Lead, NUS FinTech Society",
+          "Member, Sheares Hall Media Web"
         ]
       }
     ],
-    "technicalskills":[
+    "work": [
       {
-        "skill":"Deep Learning",
-        "icon":"robot"
+        "company": "GovTech Singapore",
+        "location": "Singapore",
+        "title": "Applied Research Scientist, Responsible AI",
+        "years": "Aug 2024 - Present",
+        "description": [
+          "Led the research and development of safety testing frameworks for government LLM applications, covering taxonomy and benchmark construction, automated judging methods, and quantitative scoring for chatbots.",
+          "Operationalised research findings into evaluation tools and platform capabilities now used by over 10 agency users across the government.",
+          "Published technical papers formalising frameworks, contributing to broader adoption of safety evaluation standards, with publications accepted as oral spotlight at the ICML 2025 TAIG workshop."
+        ]
       },
       {
-        "skill":"Data Analysis",
-        "icon":"chart-area"
+        "company": "GovTech Singapore",
+        "location": "Singapore",
+        "title": "AI Engineer, Video Analytics",
+        "years": "Aug 2022 - Jul 2025",
+        "description": [
+          "Led end-to-end development of 7+ applied ML systems as the primary engineer, designing bespoke pipelines across diverse use cases such as autonomous robot safety monitoring and contactless vital sign extraction.",
+          "Built and refined solutions across a diverse range of model architectures, including conventional computer vision, transformers-based, and vision-language models.",
+          "Deployed models on the Government Commercial Cloud, including packaging, implementing inference logic, and ensuring stable, secure, real-time performance for downstream users.",
+          "Collaborated with government agencies, research institutions, and industry partners to co-develop ML solutions from initial scoping through final deployment."
+        ]
       },
       {
-        "skill":"Application Development",
-        "icon":"laptop"
+        "company": "SAP",
+        "location": "Singapore",
+        "title": "Machine Learning Engineer Intern",
+        "years": "Jan 2021 - Jun 2021",
+        "description": [
+          "Designed and deployed document processing components for HR workflows, automating document classification and quality assessment with 96% precision while enhancing robustness through quality enhancement methods.",
+          "Improved information extraction performance to 92% accuracy by running regression tests, identifying error patterns, and refining NLP classification and extraction models."
+        ]
       },
       {
-        "skill":"Database Management",
-        "icon":"database"
-      },
-      {
-        "skill":"Spark & Hadoop",
-        "icon":"fast-forward"
+        "company": "GovTech Singapore",
+        "location": "Singapore",
+        "title": "Machine Learning Engineer Intern",
+        "years": "May 2020 - Aug 2020",
+        "description": [
+          "Developed an exercise detection and rep counting computer vision application aimed at streamlining Individual Physical Proficiency Test (IPPT) processes."
+        ]
       }
     ],
-    "softskills":[
+    "technicalskills": [
       {
-        "skill":"Problem Solving",
-        "icon":"cubes"
+        "skill": "ML/LLMs",
+        "icon": "brain"
       },
       {
-        "skill":"Leadership",
-        "icon":"users"
+        "skill": "Model Deployment",
+        "icon": "rocket"
       },
       {
-        "skill":"Public Speaking",
-        "icon":"microphone"
+        "skill": "Cloud Infrastructure (AWS)",
+        "icon": "cloud"
       },
       {
-        "skill":"Communication",
-        "icon":"comment-dots"
+        "skill": "Docker",
+        "icon": "cube"
       },
       {
-        "skill":"Agile & SCRUM",
-        "icon":"code"
+        "skill": "Full-stack Development",
+        "icon": "layer-group"
+      }
+    ],
+    "softskills": [
+      {
+        "skill": "Problem Solving",
+        "icon": "cubes"
+      },
+      {
+        "skill": "Technical Leadership",
+        "icon": "user-tie"
+      },
+      {
+        "skill": "Cross-functional Collaboration",
+        "icon": "handshake"
+      },
+      {
+        "skill": "Stakeholder Management",
+        "icon": "user-friends"
       }
     ]
   },
-  "gallery":{
-    "projects": [
+  "showcase": {
+    "items": [
       {
-        "title":"Shopee Ultra Hackathon 2021",
-        "image":"shopee.jpg"
+        "title": "Safety Testing Framework for LLM Applications",
+        "summary": "A safety testing framework for government LLM applications, covering risk taxonomy design, benchmark construction, automated judging methods, and quantitative scoring tailored for real-world chatbot deployments. Presented as an oral spotlight at the ICML 2025 Workshop on Technical AI Governance.",
+        "image": "featured/icml.jpeg",
+        "date": "Jul 2025",
+        "type": [
+          "project",
+          "talk"
+        ],
+        "tags": [
+          "LLM Safety",
+          "Evaluation Frameworks",
+          "Adversarial Testing",
+          "AI Governance"
+        ],
+        "links": [
+          {
+            "label": "Video",
+            "url": "https://slideslive.com/39044601"
+          }
+        ]
       },
       {
-        "title":"Sheares Hall Basketball",
-        "image":"basketball.JPG"
+        "title": "Autonomous Ground Robot Monitoring for Safety Breach Detection",
+        "summary": "A real-time safety monitoring system for autonomous ground robots, combining classical CV and transformer-based perception models to detect safety barrier breaches in challenging outdoor environments. Includes a monitoring dashboard that surfaces safety triggers for on-site operators to visualise alerts.",
+        "image": "featured/robot.jpeg",
+        "date": "Jul 2025",
+        "type": "project",
+        "tags": [
+          "Computer Vision",
+          "Robotics",
+          "Perception Systems"
+        ],
+        "links": []
       },
       {
-        "title":"SoC Rag & Flag",
-        "image":"rag.JPG"
+        "title": "Contactless Vital Sign Extraction with Remote Photoplethysmography (rPPG)",
+        "summary": "Built a contactless rPPG vital-sign estimation system from facial video, delivering accurate heart-rate and respiration estimates, with experimental modelling for blood-pressure prediction. Led the pipeline across dataset design, signal processing, and ML model development.",
+        "image": "featured/rppg.jpeg",
+        "date": "Jan 2024",
+        "type": "project",
+        "tags": [
+          "Computer Vision",
+          "Signal Processing"
+        ]
       },
       {
-        "title":"SoC Freshmen Social Camp",
-        "image":"fsc.jpg"
+        "title": "1st Runner-up, Shopee Ultra Hackathon",
+        "summary": "Built a standalone mobile application prototype within 36 hours, integrating Shopee's APIs to deliver new engagement-focused user experiences. Designed and engineered the app using React Native and secured 1st runner-up among 96 competing teams.",
+        "image": "featured/shopee.jpg",
+        "date": "Jan 2021",
+        "type": [
+          "hackathon"
+        ],
+        "tags": [
+          "Mobile App Development",
+          "React Native",
+          "Prototyping"
+        ],
+        "links": [
+          {
+            "label": "Link",
+            "url": "https://www.comp.nus.edu.sg/news/2021-aws-shopee-hackathons/"
+          }
+        ]
       }
     ]
   }

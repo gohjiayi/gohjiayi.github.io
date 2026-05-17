@@ -1,14 +1,14 @@
 {
   "main": {
     "name": "Goh Jia Yi, Jesa",
-    "headline": "AI Engineer specialising in LLM safety, computer vision, and applied ML systems.",
+    "headline": "Applied AI engineer focused on LLM safety, evaluation, and guardrails.",
     "image": "profile.jpg",
     "bio": [
       "Hi, I’m Jia Yi — I also go by Jesa!",
       "I’m currently exploring the realm of Responsible AI to make AI products safer and more trustworthy for public use. The unprecedented pace of AI advancements makes waking up each day exciting, but it also reinforces the need to build responsibly, which is what keeps me up at night (in a good way).",
       "Transforming ideas into tangible working solutions brings me joy."
     ],
-    "resumedownload": "Goh Jia Yi Resume Dec2025.pdf",
+    "resumedownload": "GohJiaYi Resume May2026.pdf",
     "social": {
       "email": "gooohjiayi@gmail.com",
       "linkedin": "https://www.linkedin.com/in/gohjiayi/",
@@ -22,8 +22,13 @@
   "resume": {
     "education": [
       {
+        "school": "Georgia Institute of Technology",
+        "degree": "Master of Science (M.Sc) in Computer Science",
+        "graduated": "Incoming Aug 2026"
+      },
+      {
         "school": "National University of Singapore",
-        "degree": "Bachelor of Science (BSc.) in Business Analytics",
+        "degree": "Bachelor of Science (B.Sc.) in Business Analytics",
         "graduated": "May 2022",
         "description": "Graduated with First-Class Honours",
         "activities": [
@@ -34,25 +39,27 @@
     ],
     "work": [
       {
-        "company": "GovTech Singapore",
+        "company": "Government Technology Agency of Singapore",
         "location": "Singapore",
         "title": "Applied Research Scientist, Responsible AI",
         "years": "Aug 2024 - Present",
         "description": [
-          "Led the research and development of safety testing frameworks for government LLM applications, covering taxonomy and benchmark construction, automated judging methods, and quantitative scoring for chatbots.",
-          "Operationalised research findings into evaluation tools and platform capabilities now used by over 10 agency users across the government.",
-          "Published technical papers formalising frameworks, contributing to broader adoption of safety evaluation standards, with publications accepted as oral spotlight at the ICML 2025 TAIG workshop."
+          "Spearheaded standardised safety evaluations for public-facing Whole-of-Government LLM applications, shaping a technical framework recognised as an oral spotlight at the ICML 2025 Technical AI Governance workshop.",
+          "Led end-to-end safety and utility evaluations for high-impact public-facing government LLM applications, incorporating multi-turn assessments to surface helpfulness-harmlessness trade-offs.",
+          "Built scalable custom guardrail workflows that enabled teams to customise safeguards across policies and deployment contexts, from synthetic dataset generation to training and evaluation.",
+          "Designed guardrail lifecycle and MLOps workflows to support continuous improvement of production safeguards.",
+          "Partnered with policy, product, and engineering teams to translate LLM evaluation and guardrails into deployable tools, guidance, and platform capabilities adopted by over 80 government agency teams."
         ]
       },
       {
-        "company": "GovTech Singapore",
+        "company": "Government Technology Agency of Singapore",
         "location": "Singapore",
         "title": "AI Engineer, Video Analytics",
         "years": "Aug 2022 - Jul 2025",
         "description": [
           "Led end-to-end development of 7+ applied ML systems as the primary engineer, designing bespoke pipelines across diverse use cases such as autonomous robot safety monitoring and contactless vital sign extraction.",
-          "Built and refined solutions across a diverse range of model architectures, including conventional computer vision, transformers-based, and vision-language models.",
-          "Deployed models on the Government Commercial Cloud, including packaging, implementing inference logic, and ensuring stable, secure, real-time performance for downstream users.",
+          "Built and refined solutions across a diverse range of model architectures, including conventional computer vision, transformer-based, and vision-language models.",
+          "Maintained production ML inference workflows for the Video Analytics System (VAS) platform and contributed to platform-level QA through Locust-based load testing.",
           "Collaborated with government agencies, research institutions, and industry partners to co-develop ML solutions from initial scoping through final deployment."
         ]
       },
@@ -62,17 +69,7 @@
         "title": "Machine Learning Engineer Intern",
         "years": "Jan 2021 - Jun 2021",
         "description": [
-          "Designed and deployed document processing components for HR workflows, automating document classification and quality assessment with 96% precision while enhancing robustness through quality enhancement methods.",
-          "Improved information extraction performance to 92% accuracy by running regression tests, identifying error patterns, and refining NLP classification and extraction models."
-        ]
-      },
-      {
-        "company": "GovTech Singapore",
-        "location": "Singapore",
-        "title": "Machine Learning Engineer Intern",
-        "years": "May 2020 - Aug 2020",
-        "description": [
-          "Developed an exercise detection and rep counting computer vision application aimed at streamlining Individual Physical Proficiency Test (IPPT) processes."
+          "Designed document processing components for HR workflows, improving document classification, quality assessment, and information extraction performance, achieving up to 96% precision and 92% accuracy."
         ]
       }
     ],

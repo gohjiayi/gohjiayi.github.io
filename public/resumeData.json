@@ -8,9 +8,8 @@
       "I’m currently exploring the realm of Responsible AI to make AI products safer and more trustworthy for public use. The unprecedented pace of AI advancements makes waking up each day exciting, but it also reinforces the need to build responsibly, which is what keeps me up at night (in a good way).",
       "Transforming ideas into tangible working solutions brings me joy."
     ],
-    "resumedownload": "GohJiaYi Resume May2026.pdf",
+    "resumedownload": "Goh Jia Yi Resume Sep2026.pdf",
     "social": {
-      "email": "gooohjiayi@gmail.com",
       "linkedin": "https://www.linkedin.com/in/gohjiayi/",
       "github": "https://github.com/gohjiayi",
       "x": "https://x.com/gooohjy",
@@ -24,7 +23,7 @@
       {
         "school": "Georgia Institute of Technology",
         "degree": "Master of Science (M.Sc) in Computer Science",
-        "graduated": "Incoming Aug 2026"
+        "graduated": "Present"
       },
       {
         "school": "National University of Singapore",
@@ -44,11 +43,11 @@
         "title": "Applied Research Scientist, Responsible AI",
         "years": "Aug 2024 - Present",
         "description": [
-          "Spearheaded standardised safety evaluations for public-facing Whole-of-Government LLM applications, shaping a technical framework recognised as an oral spotlight at the ICML 2025 Technical AI Governance workshop.",
-          "Led end-to-end safety and utility evaluations for high-impact public-facing government LLM applications, incorporating multi-turn assessments to surface helpfulness-harmlessness trade-offs.",
-          "Built scalable custom guardrail workflows that enabled teams to customise safeguards across policies and deployment contexts, from synthetic dataset generation to training and evaluation.",
-          "Designed guardrail lifecycle and MLOps workflows to support continuous improvement of production safeguards.",
-          "Partnered with policy, product, and engineering teams to translate LLM evaluation and guardrails into deployable tools, guidance, and platform capabilities adopted by over 80 government agency teams."
+          "Led end-to-end safety and utility evaluations for high-impact government LLM chatbots and agentic systems, while spearheading standardised evaluation frameworks for the Whole-of-Government.",
+          "Developed scalable training pipelines for custom guardrail models across policy and deployment contexts.",
+          "Engineered and deployed a full-stack guardrail MLOps application for automated model retraining and deployment.",
+          "Partnered with policy and product teams to shape whole-of-government Responsible AI governance and operationalise it into a platform adopted by 40+ agency teams.",
+          "Mentored junior engineers across projects through technical guidance and design reviews."
         ]
       },
       {
@@ -69,21 +68,34 @@
         "title": "Machine Learning Engineer Intern",
         "years": "Jan 2021 - Jun 2021",
         "description": [
-          "Designed document processing components for HR workflows, improving document classification, quality assessment, and information extraction performance, achieving up to 96% precision and 92% accuracy."
+          "Designed and deployed document processing components for HR workflows, automating document classification and quality assessment with 96% precision while enhancing robustness through quality enhancement methods.",
+          "Improved information extraction performance to 92% accuracy by running regression tests, identifying error patterns, and refining NLP classification and extraction models."
         ]
       }
     ],
     "technicalskills": [
       {
-        "skill": "ML/LLMs",
-        "icon": "brain"
+        "skill": "LLM Evaluation",
+        "icon": "magnifying-glass-chart"
       },
       {
-        "skill": "Model Deployment",
+        "skill": "AI Safety & Guardrails",
+        "icon": "shield-halved"
+      },
+      {
+        "skill": "Agentic AI",
+        "icon": "robot"
+      },
+      {
+        "skill": "Model Training & Deployment",
         "icon": "rocket"
       },
       {
-        "skill": "Cloud Infrastructure (AWS)",
+        "skill": "MLOps",
+        "icon": "gears"
+      },
+      {
+        "skill": "Cloud Infrastructure",
         "icon": "cloud"
       },
       {
@@ -97,12 +109,12 @@
     ],
     "softskills": [
       {
-        "skill": "Problem Solving",
-        "icon": "cubes"
-      },
-      {
         "skill": "Technical Leadership",
         "icon": "user-tie"
+      },
+      {
+        "skill": "Applied Research",
+        "icon": "flask"
       },
       {
         "skill": "Cross-functional Collaboration",
@@ -112,36 +124,165 @@
         "skill": "Stakeholder Management",
         "icon": "user-friends"
       }
+    ],
+    "languages": [
+      {
+        "skill": "English (Native)"
+      },
+      {
+        "skill": "Mandarin (Native)"
+      },
+      {
+        "skill": "Korean (Limited Working Proficiency)"
+      }
     ]
   },
+  "writing": {
+    "authored": [
+      {
+        "title": "Building a Smart and Safe Whole-of-Government Chatbot for Singaporeans",
+        "date": "2026-09-11",
+        "publication": "blog.ai.gov.sg",
+        "summary": "How we build custom policy guardrails and balance safety with helpfulness for chat.gov.sg.",
+        "url": "https://blog.ai.gov.sg/building-a-smart-and-safe-whole-of-government-chatbot-for-singaporeans/",
+        "image": "https://storage.ghost.io/c/ca/f5/caf570e4-5b80-4fc2-b4c8-0c544c2ce19f/content/images/size/w2000/2026/09/Building-a-Smart-and-Safe-Whole-of-Government-Chatbot-for-Singaporeans.webp"
+      },
+      {
+        "title": "Guardrails in the Wild: Closing the Retraining Loop for LionGuard 2",
+        "date": "2026-08-21",
+        "publication": "blog.ai.gov.sg",
+        "summary": "Operationalising MLOps with production feedback to continuously evaluate, retrain, and improve our guardrails.",
+        "url": "https://blog.ai.gov.sg/guardrails-in-the-wild-closing-the-retraining-loop-for-lionguard-2/",
+        "image": "https://storage.ghost.io/c/ca/f5/caf570e4-5b80-4fc2-b4c8-0c544c2ce19f/content/images/size/w2000/2026/08/Guardrails-in-the-Wild---Closing-the-Retraining-Loop-for-LionGuard-2.webp"
+      },
+      {
+        "title": "My Mac Setup (2026)",
+        "date": "2026-08-12",
+        "publication": "Medium",
+        "summary": "",
+        "url": "https://medium.com/@gohjiayi/my-mac-setup-2026-69f2c4ec9a64",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*OtFq8xTx9fdAsfbQowIYjQ.jpeg"
+      },
+      {
+        "title": "The Realities of Robot Deployment: What It Takes for Embodied AI to Succeed",
+        "date": "2026-01-14",
+        "publication": "GovTech AI Practice",
+        "summary": "",
+        "url": "https://medium.com/dsaid-govtech/the-realities-of-robot-deployment-what-it-takes-for-embodied-ai-to-succeed-172a8f36fb2c",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*uXxFarZgMItSdBfeUo9iNA.png"
+      },
+      {
+        "title": "Can we use AI for Software Development, Responsibly?",
+        "date": "2025-11-09",
+        "publication": "Medium",
+        "summary": "",
+        "url": "https://medium.com/@gohjiayi/can-we-use-ai-for-software-development-responsibly-d236f73dca4c",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*XfEdxlCQy8S8A6isAo9msQ.png"
+      },
+      {
+        "title": "Unleash Your Vision with Open-Vocabulary Object Detection",
+        "date": "2024-07-24",
+        "publication": "Medium",
+        "summary": "",
+        "url": "https://medium.com/@gohjiayi/unleash-your-vision-with-open-vocabulary-object-detection-febf032b9dc6",
+        "image": "https://miro.medium.com/v2/da:true/resize:fit:1096/0*744YQYaxlKyOZtaN"
+      }
+    ],
+    "publications": [
+      {
+        "title": "A Practical and Empirical Approach to Safety Testing for LLM-Powered Apps",
+        "authors": "JY Goh, G Chua, S Khoo, L Tan, N Iskandar, J Foo",
+        "venue": "Online Trust and Safety: Tools to Combat Online Harms, Misinformation and Toxicity (Book)",
+        "date": "2026",
+        "url": ""
+      },
+      {
+        "title": "Measuring What Matters: A Framework for Evaluating Safety Risks in Real-World LLM Applications",
+        "authors": "JY Goh, S Khoo, N Iskandar, G Chua, L Tan, J Foo",
+        "venue": "ICML 2025 Workshop on Technical AI Governance",
+        "date": "2025",
+        "url": "https://arxiv.org/abs/2507.09820"
+      },
+      {
+        "title": "Safe at the Margins: A General Approach to Safety Alignment in Low-Resource English Languages — A Singlish Case Study",
+        "authors": "I Lim, S Khoo, RKW Lee, W Chua, JY Goh, J Foo",
+        "venue": "arXiv preprint",
+        "date": "2025",
+        "url": "https://arxiv.org/abs/2502.12485"
+      }
+    ]
+  },
+  "speaking": [
+    {
+      "title": "Multilingual & Cultural Approaches to Benchmarking",
+      "type": "Panel",
+      "event": "Seoul Forum for AI Safety and Security (SFASS)",
+      "date": "2026-06-01",
+      "summary": "The challenges of evaluating AI across languages and cultures, why current benchmarks fall short, and what more representative evaluation could look like.",
+      "url": "",
+      "image": ""
+    },
+    {
+      "title": "Why Embodied AI Alone Won't Get Robots Out of the Lab",
+      "type": "Talk",
+      "event": "AI Wednesdays (Lorong AI)",
+      "date": "2025-11-19",
+      "summary": "The technical, operational, and financial realities of deploying robots on construction sites.",
+      "url": "",
+      "image": ""
+    },
+    {
+      "title": "AI in Code Development — Hype vs Reality",
+      "type": "Panel",
+      "event": "XConf APAC 2025 (Thoughtworks)",
+      "date": "2025-10-31",
+      "summary": "Lived experiences of applying AI in code development: what's working, what's not, and where the biggest opportunities and risks lie.",
+      "url": "",
+      "image": ""
+    },
+    {
+      "title": "Building AI Responsibly Through Guardrails and Interpretability",
+      "type": "Talk",
+      "event": "STACK Meetup (GovTech x Lorong AI)",
+      "date": "2025-08-28",
+      "summary": "Safeguarding LLM applications through systematic testing and runtime guardrails.",
+      "url": "https://www.developer.tech.gov.sg/communities/events/stack-meetups/building-ai-responsibly-through-guardrails-and-interpretability/overview.html",
+      "image": ""
+    },
+    {
+      "title": "Measuring What Matters: A Framework for Evaluating Safety Risks in Real-World LLM Applications",
+      "type": "Paper",
+      "event": "ICML 2025 Workshop on Technical AI Governance",
+      "date": "2025-07-26",
+      "summary": "Oral spotlight on how we benchmark and score government LLM applications against safety requirements.",
+      "url": "https://slideslive.com/39044601",
+      "image": ""
+    },
+    {
+      "title": "Every Day is Day 1: Secure your LLM Application with Testing & Guardrails",
+      "type": "Talk",
+      "event": "PyCon SG 2025",
+      "date": "2025-06-18",
+      "summary": "A Day 1 blueprint for implementing LLM safety testing and guardrails in production.",
+      "url": "https://www.youtube.com/watch?v=16d6xmEUGw8",
+      "image": ""
+    },
+    {
+      "title": "Image Quality Analysis for Video Analytics",
+      "type": "Talk",
+      "event": "STACK Meetup (GovTech x AWS)",
+      "date": "2023-02-23",
+      "summary": "Developing an image quality analysis model to streamline downstream vision tasks on GovTech's Video Analytics System (VAS) platform.",
+      "url": "https://v2.developer.tech.gov.sg/communities/events/stack-meetups/managed-ml-pipelines-for-wog-video-analytics",
+      "image": ""
+    }
+  ],
   "showcase": {
     "items": [
       {
-        "title": "Safety Testing Framework for LLM Applications",
-        "summary": "A safety testing framework for government LLM applications, covering risk taxonomy design, benchmark construction, automated judging methods, and quantitative scoring tailored for real-world chatbot deployments. Presented as an oral spotlight at the ICML 2025 Workshop on Technical AI Governance.",
-        "image": "featured/icml.jpeg",
-        "date": "Jul 2025",
-        "type": [
-          "project",
-          "talk"
-        ],
-        "tags": [
-          "LLM Safety",
-          "Evaluation Frameworks",
-          "Adversarial Testing",
-          "AI Governance"
-        ],
-        "links": [
-          {
-            "label": "Video",
-            "url": "https://slideslive.com/39044601"
-          }
-        ]
-      },
-      {
         "title": "Autonomous Ground Robot Monitoring for Safety Breach Detection",
         "summary": "A real-time safety monitoring system for autonomous ground robots, combining classical CV and transformer-based perception models to detect safety barrier breaches in challenging outdoor environments. Includes a monitoring dashboard that surfaces safety triggers for on-site operators to visualise alerts.",
-        "image": "featured/robot.jpeg",
+        "image": "projects/2025-07-robot.jpeg",
         "date": "Jul 2025",
         "type": "project",
         "tags": [
@@ -154,32 +295,12 @@
       {
         "title": "Contactless Vital Sign Extraction with Remote Photoplethysmography (rPPG)",
         "summary": "Built a contactless rPPG vital-sign estimation system from facial video, delivering accurate heart-rate and respiration estimates, with experimental modelling for blood-pressure prediction. Led the pipeline across dataset design, signal processing, and ML model development.",
-        "image": "featured/rppg.jpeg",
+        "image": "projects/2024-01-rppg.jpeg",
         "date": "Jan 2024",
         "type": "project",
         "tags": [
           "Computer Vision",
           "Signal Processing"
-        ]
-      },
-      {
-        "title": "1st Runner-up, Shopee Ultra Hackathon",
-        "summary": "Built a standalone mobile application prototype within 36 hours, integrating Shopee's APIs to deliver new engagement-focused user experiences. Designed and engineered the app using React Native and secured 1st runner-up among 96 competing teams.",
-        "image": "featured/shopee.jpg",
-        "date": "Jan 2021",
-        "type": [
-          "hackathon"
-        ],
-        "tags": [
-          "Mobile App Development",
-          "React Native",
-          "Prototyping"
-        ],
-        "links": [
-          {
-            "label": "Link",
-            "url": "https://www.comp.nus.edu.sg/news/2021-aws-shopee-hackathons/"
-          }
         ]
       }
     ]

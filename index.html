@@ -6,22 +6,46 @@
     <meta name="theme-color" content="#000000">
     <link rel="manifest" href="/manifest.json">
     <link rel="shortcut icon" href="/favicon.ico">
+    <script>document.documentElement.classList.add('dark');</script>
+    <!-- SPA redirect handler for GitHub Pages -->
+    <script>
+      (function(l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&');
+          }).join('?');
+          window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location));
+    </script>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
-    <!-- Chakra UI handles styling; legacy CSS removed -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Amaranth:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Google Analytics (production only) -->
+    <script>
+      if (location.hostname === 'gohjiayi.github.io') {
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-NB3EJY8KJL';
+        document.head.appendChild(s);
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-NB3EJY8KJL');
+      }
+    </script>
 
     <title>Goh Jia Yi, Jesa</title>
   </head>
 
-  <body>
+  <body class="bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100">
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
     <div id="root"></div>
-
-    <!-- Legacy jQuery plugins removed in favor of React/Chakra -->
 
     <script type="module" src="/src/index.jsx"></script>
   </body>

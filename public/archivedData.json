@@ -1,0 +1,111 @@
+{
+  "resume": {
+    "work": [
+      {
+        "company": "Visa",
+        "location": "Singapore",
+        "title": "Innovation & Strategic Partnerships Intern",
+        "years": "Oct 2017 - Mar 2018",
+        "description": [
+          "Produced strategic partner reports, conducted market analysis for Visa Ventures AP, and supported stakeholder engagement through major events such as the Singapore Fintech Festival."
+        ]
+      }
+    ]
+  },
+  "showcase": {
+    "items": [
+      {
+        "title": "1st Runner-up, Shopee Ultra Hackathon",
+        "summary": "Built a standalone mobile application prototype within 36 hours, integrating Shopee's APIs to deliver new engagement-focused user experiences. Designed and engineered the app using React Native and secured 1st runner-up among 96 competing teams.",
+        "image": "projects/2021-01-shopee.jpg",
+        "date": "Jan 2021",
+        "type": ["hackathon"],
+        "tags": ["Mobile App Development", "React Native", "Prototyping"],
+        "links": [
+          { "label": "Article", "url": "https://www.comp.nus.edu.sg/news/2021-aws-shopee-hackathons/" }
+        ]
+      },
+      {
+        "title": "Champion, Build On, ASEAN 2021 Singapore",
+        "summary": "Led a team of 5 to develop a telehealth solution for pregnant mothers, delivering a React and AWS web application with integrated machine learning features in 2 weeks. Organised by AWS and TechForShe.",
+        "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*pDuLTmopVkM2iE8mvbB2Ig.png",
+        "date": "Jul 2021",
+        "type": ["hackathon"],
+        "tags": ["AWS", "React", "Machine Learning", "Telehealth"],
+        "links": [
+          { "label": "Article", "url": "https://www.comp.nus.edu.sg/news/2021-aws-shopee-hackathons/" },
+          { "label": "Medium", "url": "https://medium.com/@gohjiayi/build-on-asean-2021-74b2de8d846c" }
+        ]
+      },
+      {
+        "title": "Semi-Finalist, Adobe Analytics Challenge 2020",
+        "summary": "Emerged as top 20 teams amongst 1,600 teams globally by constructing and pitching data-driven recommendations derived from large-scale real-world data using Adobe Analytics.",
+        "image": "",
+        "date": "Oct 2020",
+        "type": ["hackathon"],
+        "tags": ["Data Analytics", "Adobe Analytics"],
+        "links": []
+      },
+      {
+        "title": "Building a Suicidal Text Detection Model and Mental Health Chatbot",
+        "summary": "Finetuned classifier guardrails attaining a 97% F1 score and integrated the model into a DialoGPT chatbot.",
+        "image": "",
+        "date": "Nov 2021",
+        "type": "project",
+        "tags": ["NLP", "Mental Health", "AI for Good"],
+        "links": [
+          { "label": "Article", "url": "https://medium.com/@gohjiayi/building-a-suicidal-text-detection-model-and-mental-health-chatbot-d17fd93215fa" }
+        ]
+      },
+      {
+        "title": "Detecting Adverse Drug Events with Deep Neural Models",
+        "summary": "Researching on joint entity and relation extraction models and with new representation learning techniques through the integration of knowledge graphs.",
+        "image": "",
+        "date": "Apr 2022",
+        "type": "project",
+        "tags": ["NLP", "Knowledge Graphs", "Deep Learning"],
+        "links": []
+      },
+      {
+        "title": "Predicting Flu Trends using Twitter Data",
+        "summary": "Built a flu-trend prediction proof-of-concept by scraping Twitter data, developing NLP classifiers (80% F1), achieving a 68% correlation with ground-truth trends, and deploying a live monitoring dashboard on SAP Analytics Cloud.",
+        "image": "",
+        "date": "Nov 2020",
+        "type": "project",
+        "tags": ["NLP", "Data Analytics", "Dashboard"],
+        "links": []
+      }
+    ]
+  },
+  "speaking": [
+    {
+      "title": "AI Tinkerers x Tencent Cloud Agent Development Challenge",
+      "type": "Judge",
+      "event": "AI Tinkerers Singapore x Tencent Cloud",
+      "date": "2026-08-23",
+      "summary": "Judge on the panel evaluating AI agent solutions, reviewing 5-minute pitches and Q&A sessions from participating teams.",
+      "url": "",
+      "image": ""
+    }
+  ],
+  "writing": {
+    "authored": [
+      {
+        "title": "Building a Suicidal Text Detection Model and Mental Health Chatbot",
+        "date": "2021-12-05",
+        "publication": "Medium",
+        "summary": "A technical guide to developing a suicidal text detection model and mental health support chatbot.",
+        "url": "https://medium.com/@gohjiayi/building-a-suicidal-text-detection-model-and-mental-health-chatbot-d17fd93215fa",
+        "image": "https://miro.medium.com/v2/da:true/resize:fit:1000/0*qiPCJK4sUxHjE1gn"
+      },
+      {
+        "title": "Build On, ASEAN 2021",
+        "date": "2021-08-01",
+        "publication": "Medium",
+        "summary": "Winning the AWS Build On ASEAN hackathon with TeleNatal, a telehealth platform for remote prenatal care during COVID-19.",
+        "url": "https://medium.com/@gohjiayi/build-on-asean-2021-74b2de8d846c",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/0*Fz48l1pq7L85gGOy.png"
+      }
+    ]
+  }
+}

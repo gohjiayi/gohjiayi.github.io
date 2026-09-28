@@ -1,11 +1,14 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import { motion, useScroll, useTransform, useReducedMotion } from 'motion/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
+const PLACEHOLDER = 'data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAwCdASoUAA0APzmIulQvKSWjMAgB4CcJZACw7B5zVvpxHRkUAPcngXXtQ31lZVOMhthFcQe9c+iuHVpngm79A8pkf6fAB/5wMgAA';
+
 export default function Landing({ data }) {
   const sectionRef = useRef(null);
   const shouldReduceMotion = useReducedMotion();
+  const [loaded, setLoaded] = useState(false);
   const { scrollYProgress } = useScroll({
     target: sectionRef,
     offset: ['start start', 'end start'],
@@ -22,9 +25,17 @@ export default function Landing({ data }) {
     >
       <div className="sticky top-0 h-screen overflow-hidden flex items-center justify-center">
         <img
-          src="/images/background.jpg"
+          src={PLACEHOLDER}
+          alt=""
+          aria-hidden="true"
+          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${loaded ? 'opacity-0' : 'opacity-100'}`}
+        />
+        <img
+          src="/images/background.webp"
           alt={data?.name || ''}
-          className="absolute inset-0 w-full h-full object-cover"
+          fetchPriority="high"
+          onLoad={() => setLoaded(true)}
+          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${loaded ? 'opacity-100' : 'opacity-0'}`}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/60" />
 

@@ -12,7 +12,7 @@
     "social": {
       "linkedin": "https://www.linkedin.com/in/gohjiayi/",
       "github": "https://github.com/gohjiayi",
-      "x": "https://x.com/gooohjy",
+      "x": "https://x.com/jiayijesa",
       "medium": "https://medium.com/@gohjiayi",
       "website": "https://gohjiayi.github.io",
       "googlescholar": "https://scholar.google.com/citations?user=F7jD4AUAAAAJ&hl=en"
@@ -43,11 +43,12 @@
         "title": "Applied Research Scientist, Responsible AI",
         "years": "Aug 2024 - Present",
         "description": [
-          "Led end-to-end safety and utility evaluations for high-impact government LLM chatbots and agentic systems, while spearheading standardised evaluation frameworks for the Whole-of-Government.",
-          "Developed scalable training pipelines for custom guardrail models across policy and deployment contexts.",
-          "Engineered and deployed a full-stack guardrail MLOps application for automated model retraining and deployment.",
-          "Partnered with policy and product teams to shape whole-of-government Responsible AI governance and operationalise it into a platform adopted by 40+ agency teams.",
-          "Mentored junior engineers across projects through technical guidance and design reviews."
+          "Developed safety and security evaluation methodologies for agentic AI systems, identifying failure modes across tool use, retrieval, memory, orchestration, and multi-agent interactions.",
+          "Led applied research and development of safety and utility evaluations for LLM applications, building standardised benchmarks across realistic usage patterns and targeted edge cases, with adversarial testing for relevant safety risks.",
+          "Developed scalable synthetic data generation, training, and evaluation pipelines for custom AI guardrails, translating product-specific policy requirements into deployable safety models across deployment contexts.",
+          "Engineered a full-stack MLOps platform for automated guardrail retraining, evaluation, calibration, and deployment.",
+          "Partnered with policy and product teams to shape and operationalise Whole-of-Government Responsible AI guidance, translating governance requirements into reusable technical safeguards and platforms for government AI teams.",
+          "Mentored junior team members through technical guidance, design reviews, and research mentorship."
         ]
       },
       {
@@ -56,10 +57,10 @@
         "title": "AI Engineer, Video Analytics",
         "years": "Aug 2022 - Jul 2025",
         "description": [
-          "Led end-to-end development of 7+ applied ML systems as the primary engineer, designing bespoke pipelines across diverse use cases such as autonomous robot safety monitoring and contactless vital sign extraction.",
-          "Built and refined solutions across a diverse range of model architectures, including conventional computer vision, transformer-based, and vision-language models.",
-          "Maintained production ML inference workflows for the Video Analytics System (VAS) platform and contributed to platform-level QA through Locust-based load testing.",
-          "Collaborated with government agencies, research institutions, and industry partners to co-develop ML solutions from initial scoping through final deployment."
+          "Developed 7+ end-to-end applied ML systems across computer vision and multimodal AI, ranging from vision for experimental robotic systems and rPPG-based vital-sign estimation to high-precision construction safety applications.",
+          "Drove model selection and experimentation across conventional CV, transformer-based, and vision-language approaches, balancing performance with latency, robustness, and deployment constraints.",
+          "Built and deployed production ML inference pipelines for the Video Analytics System (VAS), integrating ML capabilities into the broader application stack and conducting Locust-based load testing to identify bottlenecks and validate system performance and scalability.",
+          "Worked directly with government agencies to scope and deliver AI solutions for ambiguous technical problems, including areas without established implementation approaches and requiring iterative experimentation."
         ]
       },
       {
@@ -139,6 +140,14 @@
   },
   "writing": {
     "authored": [
+      {
+        "title": "Decision Models for Guardrails: Exploring Jev and Kev for Moderation",
+        "date": "2026-09-28",
+        "publication": "blog.ai.gov.sg",
+        "summary": "Evaluating decision models Jev and Kev for content moderation, examining classification performance and calibration across multilingual benchmarks.",
+        "url": "https://blog.ai.gov.sg/decision-models-for-guardrails-exploring-jev-and-kev-for-moderation/",
+        "image": "https://storage.ghost.io/c/ca/f5/caf570e4-5b80-4fc2-b4c8-0c544c2ce19f/content/images/size/w2000/2026/09/ChatGPT-Image-Sep-25--2026--11_39_10-AM-1.png"
+      },
       {
         "title": "Building a Smart and Safe Whole-of-Government Chatbot for Singaporeans",
         "date": "2026-09-11",

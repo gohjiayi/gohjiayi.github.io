@@ -141,6 +141,14 @@
   "writing": {
     "authored": [
       {
+        "title": "Strengthening Chatbot Safeguards with Red-Teaming Agents",
+        "date": "2026-10-02",
+        "publication": "blog.ai.gov.sg",
+        "summary": "How we deployed multi-turn red-teaming agents to proactively identify vulnerabilities in chat.gov.sg's guardrails.",
+        "url": "https://blog.ai.gov.sg/strengthening-chatbot-safeguards-with-red-teaming-agents/",
+        "image": "https://storage.ghost.io/c/ca/f5/caf570e4-5b80-4fc2-b4c8-0c544c2ce19f/content/images/size/w2000/2026/10/Strengthening-Chatbot-Safeguards-with-Red-Teaming-Agents.webp"
+      },
+      {
         "title": "Decision Models for Guardrails: Exploring Jev and Kev for Moderation",
         "date": "2026-09-28",
         "publication": "blog.ai.gov.sg",
